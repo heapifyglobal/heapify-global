@@ -1,8 +1,3 @@
-Perfect — this README will now **rebrand your project as a real product company codebase**, not a template.
-
-Here is your **official Heapify Global README.md** 👇
-Replace your README completely with this:
-
 ---
 
 # Heapify Global – Product Engineering Platform
