@@ -2,7 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="refresh" content="0; URL=/heapify-global/" />
+  <title>Redirect</title>
+  <script>
+    var path = window.location.pathname.replace('/heapify-global', '');
+    window.location.replace('/heapify-global/?redirect=' + path);
+  </script>
 </head>
 <body></body>
 </html>
