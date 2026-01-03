@@ -3,9 +3,6 @@
 # Heapify Global – Product Engineering Platform
 
 Heapify Global is a product engineering and talent innovation company that builds scalable digital systems for startups and enterprises, while also operating Heapify Academy — its internal training and talent development division.
-
-This repository contains the official frontend platform for Heapify Global.
-
 ---
 
 ## About Heapify Global
