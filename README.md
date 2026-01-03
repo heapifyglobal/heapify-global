@@ -71,4 +71,3 @@ Unauthorized reproduction or redistribution is prohibited.
 
 ---
 
-Your repo now looks **professional, original, and investor-grade.**
