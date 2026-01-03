@@ -21,16 +21,14 @@ const internships = [
     id: 1,
     title: "Web Development Intern",
     description: "Learn to build modern, responsive websites using HTML, CSS, JavaScript, and popular frameworks.",
-    duration: "2 months",
     category: "Web Development",
     skills: ["HTML", "CSS", "JavaScript", "React"],
-    level: "Beginner Friendly",
+    level: "Beginner",
   },
   {
     id: 2,
     title: "React.js Developer Intern",
     description: "Master React.js by building real-world projects with hooks, state management, and modern patterns.",
-    duration: "3 months",
     category: "React.js",
     skills: ["React", "Redux", "TypeScript", "Tailwind CSS"],
     level: "Intermediate",
@@ -39,16 +37,14 @@ const internships = [
     id: 3,
     title: "App Development Intern",
     description: "Create cross-platform mobile applications using Flutter or React Native with real project experience.",
-    duration: "4 months",
     category: "App Development",
     skills: ["Flutter", "React Native", "Dart", "Mobile UI"],
-    level: "Beginner Friendly",
+    level: "Beginner ",
   },
   {
     id: 4,
     title: "Cybersecurity Intern",
     description: "Gain hands-on experience in ethical hacking, network security, and vulnerability assessment.",
-    duration: "3 months",
     category: "Cybersecurity",
     skills: ["Ethical Hacking", "Network Security", "Linux", "Penetration Testing"],
     level: "Intermediate",
@@ -57,7 +53,6 @@ const internships = [
     id: 5,
     title: "AI/ML Intern",
     description: "Explore machine learning algorithms, neural networks, and build AI-powered applications.",
-    duration: "4 months",
     category: "AI/ML",
     skills: ["Python", "TensorFlow", "Machine Learning", "Data Science"],
     level: "Intermediate",
@@ -66,19 +61,17 @@ const internships = [
     id: 6,
     title: "UI/UX Design Intern",
     description: "Design beautiful user interfaces and create seamless user experiences for web and mobile apps.",
-    duration: "3 months",
     category: "UI/UX Design",
     skills: ["Figma", "Adobe XD", "Prototyping", "User Research"],
-    level: "Beginner Friendly",
+    level: "Beginner ",
   },
   {
     id: 7,
     title: "Data Analyst Intern",
     description: "Learn data analysis, visualization, and derive insights from real-world datasets.",
-    duration: "3 months",
     category: "Data Analyst",
     skills: ["Excel", "SQL", "Python", "Power BI"],
-    level: "Beginner Friendly",
+    level: "Beginner  ",
   },
   {
     id: 8,
@@ -92,33 +85,30 @@ const internships = [
     id: 9,
     title: "Python Programming Intern",
     description: "Master Python programming through hands-on projects covering automation, web scraping, and more.",
-    duration: "2 months",
     category: "Python Programming",
     skills: ["Python", "Flask", "Django", "Automation"],
-    level: "Beginner Friendly",
+    level: "Beginner",
   },
   {
     id: 10,
     title: "DSA in C++ Intern",
     description: "Strengthen your problem-solving skills with data structures and algorithms in C++.",
-    duration: "3 months",
     category: "DSA in C++",
     skills: ["C++", "Data Structures", "Algorithms", "Problem Solving"],
-    level: "Beginner Friendly",
+    level: "Beginner",
   },
   {
     id: 11,
     title: "Java Programming Intern",
     description: "Learn Java programming fundamentals and build enterprise-level applications.",
-    duration: "3 months",
     category: "Java Programming",
     skills: ["Java", "OOP", "Spring Boot", "JDBC"],
-    level: "Beginner Friendly",
+    level: "Beginner",
   },
 ];
 
 const categories = ["All", "Web Development", "React.js", "App Development", "Cybersecurity", "AI/ML", "UI/UX Design", "Data Analyst", "Blockchain", "Python Programming", "DSA in C++", "Java Programming"];
-const levels = ["All Levels", "Beginner Friendly", "Intermediate"];
+const levels = ["All Levels", "Beginner", "Intermediate"];
 
 export default function Internships() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -271,10 +261,10 @@ export default function Internships() {
                     {/* Details */}
                     <div className="flex flex-wrap items-center gap-4 mt-4 text-sm text-muted-foreground">
                       
-                      <span className="flex items-center gap-1">
+                      {/* <span className="flex items-center gap-1">
                         <Clock className="h-4 w-4" />
                         {internship.duration}
-                      </span>
+                      </span> */}
                       <Badge variant="outline" className="text-primary border-primary/30">
                         {internship.level}
                       </Badge>
